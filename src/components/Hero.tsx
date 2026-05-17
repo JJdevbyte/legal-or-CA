@@ -31,7 +31,7 @@ export const Hero = () => {
     <section
       ref={containerRef}
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-obsidian px-6 py-24"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-obsidian px-6 py-24 z-0"
     >
       <div className="noise-overlay" />
 

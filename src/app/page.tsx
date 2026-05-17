@@ -8,10 +8,16 @@ export default function Home() {
   return (
     <main className="flex-1">
       <Hero />
-      <AboutSection />
-      <PracticeAreas />
-      <ContactWizard />
-      <Footer />
+      <div className="relative z-10">
+        <AboutSection />
+      </div>
+      <div className="relative z-20">
+        <PracticeAreas />
+      </div>
+      <div className="relative z-30 pt-[30vh] bg-obsidian">
+        <ContactWizard />
+        <Footer />
+      </div>
     </main>
   );
 }

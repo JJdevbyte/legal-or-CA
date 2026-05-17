@@ -40,7 +40,7 @@ export const ContactWizard = () => {
   };
 
   return (
-    <section id="contact" className="relative py-32 bg-obsidian border-t border-white/5 overflow-hidden">
+    <section id="contact" className="relative py-32 bg-obsidian border-t border-white/5 overflow-hidden mt-[10vh]">
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <motion.div
